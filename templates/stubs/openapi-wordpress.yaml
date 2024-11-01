@@ -1,0 +1,13 @@
+  /wp-json/chatgpt-plugin/v1/posts/search:
+    get:
+      operationId: findPosts
+      summary: Find WordPress posts that matches
+      parameters:
+      - in: query
+        name: term
+        schema:
+            type: string
+        description: Used to define the search term for the content or posts the user is looking for
+      responses:
+        "200":
+          description: OK

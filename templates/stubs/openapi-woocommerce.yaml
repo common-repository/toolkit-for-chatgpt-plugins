@@ -1,0 +1,23 @@
+  /wp-json/chatgpt-plugin/v1/products/search:
+    get:
+      operationId: findProducts
+      summary: Find a product that matches 
+      parameters:
+      - in: query
+        name: term
+        schema:
+            type: string
+        description: Used to define the search term for the product the user is looking for
+      - in: query
+        name: sku
+        schema:
+            type: string
+        description: Used to define the sku
+      - in: query
+        name: size
+        schema:
+            type: string
+        description: Used to define the product size
+      responses:
+        "200":
+          description: OK

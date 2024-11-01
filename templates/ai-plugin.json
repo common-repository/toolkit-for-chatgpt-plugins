@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": PLUGIN_NAME_FOR_HUMAN,
+    "name_for_model": PLUGIN_NAME_FOR_MODEL,
+    "description_for_human": DESCRIPTION_FOR_HUMAN,
+    "description_for_model": DESCRIPTION_FOR_MODEL,
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "DOMAIN/.well-known/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "DOMAIN/.well-known/logo.png",
+    "contact_email": CONTACT_EMAIL,
+    "legal_info_url": LEGAL_URL
+}

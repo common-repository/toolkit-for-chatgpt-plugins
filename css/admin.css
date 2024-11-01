@@ -1,0 +1,39 @@
+#toolkit-for-chatgpt-plugins {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    max-width: 1200px;
+}
+
+#toolkit-for-chatgpt-plugins input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+#toolkit-for-chatgpt-plugins .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; /* Adjust the gutter size */
+    max-width: 500px;
+}
+
+
+@media (max-width: 768px) {
+    #toolkit-for-chatgpt-plugins .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+#toolkit-for-chatgpt-plugins #instructions {
+    max-width: 800px;
+}
+#toolkit-for-chatgpt-plugins #instructions ul {
+    list-style: disc;
+    margin-left: 20px;
+}

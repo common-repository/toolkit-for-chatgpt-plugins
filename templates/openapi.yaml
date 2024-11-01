@@ -1,0 +1,8 @@
+openapi: 3.0.2
+info:
+  title: PLUGIN_NAME_FOR_HUMAN
+  description: DESCRIPTION_FOR_HUMAN
+  version: 1.0.0
+servers:
+  - url: DOMAIN
+paths:
